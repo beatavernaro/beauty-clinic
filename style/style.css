@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root{
+    --bg-fundo: #FEF8F8;
+    --cinza: #555555;
+    --rosa: #EE9591;
+    --cinza-claro: #F6F6F6;
+    --cinza-medio: #888888;
+    --roboto: 'Roboto', sans-serif;
+}
+
+.main-bg-color{
+    background-color: var(--bg-fundo);
+}
+
+.navbar-text{
+    font-family: var(--roboto);
+
+}
+
+#btn-header{
+    background-color: var(--rosa);
+    color: var(--cinza-claro);
+    font-family: var(--roboto);
+    box-shadow: 10px 10px 30px rgba(234, 141, 136, 0.4);
+}
+
+.margin{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.div-height{
+    height: 600px;
+}
+.personal-textbox{
+    font-family: var(--roboto);
+    color: var(--cinza);
+}
+
+#btn-main-section{
+    background-color: var(--rosa);
+    color: var(--cinza-claro);
+    font-family: var(--roboto);
+    margin: auto;
+    line-height: auto;
+    margin-left: 1%;
+    padding-left: 5%;
+    box-shadow: 16px 16px 60px rgba(179, 94, 90, 0.4);
+}
+#btn-main-section p{
+    margin-bottom: auto;
+}
+
+.margin-textbox-main{
+    margin-bottom: auto;
+}
+
+.teste{
+    row-gap: 2rem;
+}
+
